@@ -1,9 +1,8 @@
 const path = require('path');
 
-// Routing
+// API routes
 module.exports = (app) => {
 
-    // API routes
     // GET /notes should return the notes.html file
     app.get('/notes', (req, res) => {
         res.sendFile(path.join(__dirname, '../public/notes.html'));

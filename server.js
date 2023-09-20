@@ -19,11 +19,6 @@ require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
 
-
-
-
-
-
 // Listener
 app.listen(PORT, () => {
   console.log(`Server available at localhost${PORT}`);
